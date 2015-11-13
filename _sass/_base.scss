@@ -55,6 +55,16 @@ p {
     color: rgba(white, .7);
 }
 
+.text-faded a, ol li a{
+  color: #fff;
+  font-weight: bold;
+}
+
+ol li{
+  font-size: 16pt;
+  margin-bottom: 20px;
+}
+
 section {
     padding: 100px 0;
 }
@@ -348,4 +358,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
